@@ -1,0 +1,33 @@
+.chapter{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.chapter-head{
+    padding: 0 20px;
+    height: 3.5%;
+    font-size: 1em;
+    display: inherit;
+    align-items: center;
+}
+.chapter-content{
+    padding: 0 20px;
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.chapter-foot{
+    padding: 0 20px;
+    height: 3.5%;
+    font-size: 1em;
+    display: inherit;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chapter-paragraph{
+    font-size: 1.25em;
+    line-height: 1.8;
+}
